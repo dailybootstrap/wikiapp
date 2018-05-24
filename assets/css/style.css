@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9fbfc;
+  background-color: #ddd;
+}
+
+a:focus,a:hover{
+  text-decoration: none;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+@media (min-width: 1200px){
+.container {
+     width: 970px; 
+  }
+}
+
+.bg-white{
+  background: #fff;
+}
+
+.wiki-crumb{
+  margin-bottom: 0;
+  border-radius: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.wiki-crumb li.active{
+  color: #15a1ca;
+}
+
+.wiki-crumb li a{
+  color: #000;
+}
+.wiki-crumb>li{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.wiki-crumb>li+li:before{
+  padding: 0 5px;
+  color: #000;
+  content: "\f105";
+  font-family: 'FontAwesome';
+}
+
+.app-body{
+  background: #fff;
+  padding: 0 15px;
+}
+
+.wikiapp-chart{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #fff;
+}
+
+.wikiapp-chart h1{
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 60px;
+  color: #15a1ca;
+  font-weight: 700;
+}
+
+.wikiapp-chart h3{
+  margin: 0;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.wikiapp-chart .chart img{
+  display: inline-block;
+}
+
+.wikiapp-chart .chart{
+  text-align: center;
+}
+
+.wiki-panel{
+  box-shadow: 0px 5px 20px 0px rgba(21, 161, 202, 0.25);
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(21, 161, 202, 0.25);
+}
+
+.wiki-panel .panel{
+  border-radius: 0;
+  border-bottom: 1px solid #d6d6da;
+}
+.wiki-panel .panel+.panel{
+  margin-top: 0;
+}
+
+.wiki-panel .panel-heading{
+  background: #fff;
+  border-radius: 0;
+  padding: 0;
+}
+
+.wiki-panel .panel-heading a{
+  background-color: #15a1ca;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  
+}
+
+.wiki-panel .panel-heading a.collapsed{
+  color: #15a1ca;
+  background-color: transparent;
+}
+
+.wiki-panel .panel-heading .panel-title{
+  font-size: 30px;
+}
+
+.wiki-panel .panel-body{
+  background-color: #f1f9fc;
+}
+
+.recom-slider-area {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.recom-container{
+  margin:0 50px 30px 50px;
+}
+
+.recom-container .swiper-slide{
+  border-bottom: 10px solid #15a1ca;
+  padding: 30px;
+}
+
+.recom-slider-area .pro-img{
+  max-width: 130px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.recom-slider-area .pro-img img{
+  display: inline-block;
+  width: 100%;
+}
+.pro-info .pro-name {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.pro-info{
+  font-size: 26px;
+}
+
+.swiper-button-next:before{
+  content: "\f105";
+  font-family: 'FontAwesome';
+}
+.swiper-button-prev:before{
+  content: "\f104";
+  font-family: 'FontAwesome';
+}
+
+.swiper-button-next:before, .swiper-button-prev:before{
+    font-size: 30px;
+    color: #15a1ca;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  width: 44px;
+  border: 1px solid #15a1ca;
+  border-radius: 50%;
+  background-image: none;
+  
+}
+
+.swiper-pagination{
+  width: 100%;
+}
+
+.swiper-pagination-bullet{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.adds-ext{
+  border:1px solid #ddd;
+  background-color: #f3f3f3;
+  text-align: center;
+ padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+.adds-ext a{
+  font-size: 30px;
+  color: #15a1ca;
+  font-weight: 500;
+}
+
+.app-footer{
+  background-color: #15a1ca;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.app-footer .foot-item:not(:last-child){
+  border-right: 1px solid rgba(255,255,255,0.20);
+}
+
+.app-footer .foot-item{
+  text-align: center;
+}
+
+.app-footer .foot-item a{
+  color: #fff;
+  font-size: 25px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.app-footer .foot-item a .icon{
+  margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
